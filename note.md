@@ -1,3 +1,7 @@
+# 2021.3.1
+## C# int
+
+
 # 2021.2.25
 ## KeyValuePair<TKey,TValue>  
 KeyValuePair 是一个结构体（struct）,只包含一个Key,Value键值对；  
@@ -22,3 +26,8 @@ Dictionary可看作是KeyValuePair的集合，可以包含多个Key,Value键值�
 * FileStream 
 * BufferedStream 
 ## Encoding.UTF8
+
+## GCHandle
+
+## UNITY_64
+
