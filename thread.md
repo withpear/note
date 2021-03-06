@@ -103,7 +103,7 @@ var state =  ThreadState.Unstarted | ThreadState.Stopped | ThreadState.WaitSleep
 当线程阻塞或解除阻塞时，操作系统将执行上下文切换。
 
 ## I/O-bound   CPU-bound
-* 一个花费大部分时间等待某事发生的操作成为I/O-bound
+* 一个花费大部分时间等待某事发生的操作称为I/O-bound
 * 一个花费大部分时间执行CPU密集型工作的操作称为Compute-bound
 
 ## 线程安全
