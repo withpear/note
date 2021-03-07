@@ -9,5 +9,5 @@
 6. 输入 code .  ，使用VS Code打开该项目
 7. 输入 dotnet run 运行项目 （dotnet run 包含了 dotnet restore , dotnet build）
 
-## Tip
+## 关键字
 如果非得用关键字当标识符，则在它前面加一个@
