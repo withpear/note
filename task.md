@@ -61,3 +61,24 @@ TaskCompletionSource创建Task,可以获得所有Task的好处，不需要在操
 ## 异步编程
 原则是将长时间运行的函数写成异步的。
 Task非常适合异步编程，因为它们支持Continuation
+
+## await
+await不会阻塞线程示例：
+```c#
+            Func<int, Task<int>> func = async x => {
+                Console.WriteLine("Starting...x={0}", x);
+                await Task.Delay(x * 1000);
+                Console.WriteLine("after await thread...={0}", Thread.CurrentThread.ManagedThreadId);
+                Console.WriteLine("Finished...x={0}", x);
+                return x * 2;
+            };
+
+
+            Console.WriteLine("Main thread...={0}", Thread.CurrentThread.ManagedThreadId);
+
+            Task<int> first = func(2);
+            Task<int> second = func(5);
+            Console.WriteLine("First result: {0}", first.Result);
+            Console.WriteLine("Second result: {0}", second.Result);
+            Console.WriteLine("thread id...{0}", Thread.CurrentThread.ManagedThreadId);
+```
