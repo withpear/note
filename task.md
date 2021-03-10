@@ -55,7 +55,55 @@ CLR会将异常包裹在AggregateException里，以便在并行编程场景中�
 也可通过Task的IsFaulted和IsCanceled属性检测出Task是否发生了故障，如果两个属性都返回false,则没有错误发生。
 
 ## TaskCompletionSource
-TaskCompletionSource创建Task,可以获得所有Task的好处，不需要在操作时阻塞线程
+除了Task.Run创建Task，还可使用TaskCompletionSource创建Task,且不需要在操作时阻塞线程。  
+TaskCompletionSource提供一个可手动执行的“从属”Task,指示操作何时结束或发生故障，对IO-Bound类工作比较理想。  
+
+使用TaskCompletionSource实现Task.Run
+```c#
+        //相当于调用Task.Factory.StartNew
+        //并使用TaskCreationOptions.LongRunning选项来创建非线程池的线程
+        static Task<TResult> Run<TResult>(Func<TResult> function)
+        {
+            var tcs = new TaskCompletionSource<TResult>();
+            new Thread(() => {
+                try
+                {
+                    tcs.SetResult(function());
+                }
+                catch (Exception ex)
+                {
+                    tcs.SetException(ex);
+                }
+            }).Start();
+            return tcs.Task;
+        }
+```
+
+TaskCompletionSource创建Task,但并不占用线程。  
+使用TaskCompletionSource实现Task.Delay
+```c#
+        public static void Main()
+        {
+            //5秒后，Continuation开始时才占用线程
+            Delay(5000).GetAwaiter().OnCompleted(() => {
+                Console.WriteLine(5);
+            });
+
+            //以上相当于
+            Task.Delay(5000).GetAwaiter().OnCompleted(() => Console.WriteLine(5));
+            Task.Delay(5000).ContinueWith(ant => Console.WriteLine(5));
+            //Task.Delay相当于异步版本的Thread.Sleep
+            Console.ReadKey();
+        }
+       static Task Delay(int milliseconds)
+        {
+            var tcs = new TaskCompletionSource<object>();
+            var timer = new System.Timers.Timer(milliseconds) { AutoReset = false };
+            timer.Elapsed += delegate { timer.Dispose(); tcs.SetResult(null); };
+            timer.Start();
+            return tcs.Task;
+        }
+```
 
 
 ## 异步编程

@@ -25,7 +25,7 @@
             Console.WriteLine("{0} entry {1} was created on {2:D}", entryType, fsi.FullName, fsi.CreationTime);
         }
 ```
-##  FileInfo和File:  文件系统上的文件。
+##  FileInfo和File:  文件系统上的文件
 ### File: 静态类，不能被实例化。如果只对文件执行一个操作使用该类更有效。  
 ###  FileInfo: 需要实例化，若需在文件上执行几种操作，则实例化FileInfo对象并使用其方法更有效。
 ```c#
