@@ -94,7 +94,7 @@ test.Foo(2);//调用的是Test类里的方法
 ## 匿名类型
 匿名类型就是编译器即时创建的一个class，它用来存储一组数据。  
 创建匿名类型：new + object 初始化器，并指定属性及其值。  
-使用var关键字来引用匿名类。
+使用var关键字来引用匿名类。  
 匿名类型主要用来写LINQ查询。 
 ```c#
 var dude = new {Name = "rebecca", Age = 26};
