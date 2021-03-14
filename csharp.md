@@ -148,3 +148,6 @@ var Foo() => new {Name = "rebecca", Age = 26};//不允许
 //使用dynamic
 dynamic Foo() => new {Name = "rebecca", Age = 26};//损失静态类型的安全性
 ```
+
+
+## Attribute
