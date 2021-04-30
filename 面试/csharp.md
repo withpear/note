@@ -20,17 +20,12 @@
 ## 2. public、protected、private、internal区别
 * **public** 
 访问不受限制。同一程序集中的任何代码或引用该程序集的其它程序集都可以访问该类型或成员。 
-接口中的方法的默认访问级别，并且只能为Public。
-非抽象类的构造方法的默认访问级别。
-枚举类型的默认访问级别，且只能为public。
 
 * **protected** 
 在类的内部或在派生类中访问。
-abstract类的构造方法的默认访问级别。
 
 * **private** 
 类成员(字段和方法)的默认访问级别。只能在类的内部访问。
-自定义构造函数若未标明访问权限，默认为private。
 
 * **internal** 
 只能在同一个程序集（Assembly）中才能访问。
@@ -38,7 +33,7 @@ abstract类的构造方法的默认访问级别。
 ## 3. Class,Interface,Struct,Enum,Abstract的默认访问权限
 Note: 类(class)或结构(struct)如果不是在其它类或结构中的话，它的访问类型要不就是internal, 要不就是public。 如果它在其它类或结构中的话，则可以为private 或protected等  
 
-* **Class** 
+* **Class**   
 class的访问修饰符只有public和internal  
 class的默认访问级别为 **internal**  
 class成员(字段和方法)的默认访问级别为 **private**  
@@ -46,21 +41,21 @@ class成员(字段和方法)的默认访问级别为 **private**
 抽象类的默认构造方法的默认访问级别为 **protected**  
 自定义构造函数若未标明访问权限，默认为**private**  
 
-* **Interface** 
+* **Interface**   
 Interface的访问修饰符只有public和internal  
 Interface的默认访问级别为 **internal**  
 成员（方法和属性（有get，set方法））的默认访问级别为 **public**  
 
-* **Struct** 
+* **Struct**   
 Struct的访问修饰符为public和internal
 Struct的默认访问级别为 **internal**  
 成员的默认访问级别为 **private**  
 
-* **Enum** 
+* **Enum**   
 Enum的默认访问级别为 **public**  
 Enum成员的默认访问级别为 **public**  
 
-* **Abstract** 
+* **Abstract**   
 Abstract类的默认访问级别为 **internal**  
 Abstract类中成员的默认访问级别为 **public**  ，不能定义为 **private**  
 
