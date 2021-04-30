@@ -107,4 +107,45 @@ interface I<T>
     }
 ```
 
-## 5. Abstract 与 Virtual的区别
+## 5. abstract 与 virtual的区别
+相同之处：  
+1. 都是用于修饰父类方法，通过覆盖父类的定义，让子类重新定义。
+2. 都不能被private访问级别修饰
+不同之处：     
+1. abstract修饰的方法不能有实现，virtual修饰的方法必须有实现
+2. abstract修饰的方法必须被子类重写，virtual修饰的方法可以被子类重写
+3. 如果类成员被abstract修饰，那么类也必须被abstract修饰，且无法创建该abstract类的实例
+```c#
+    public abstract class Foo
+    {
+        //private abstract void Func();    abstract和virtual修饰的方法不能由private修饰
+        //private virtual void Bar() { }
+
+        public abstract void Func1();
+        protected abstract void Func2();
+        public virtual void Bar() { }//virtual修饰的方法必须有实现体
+        protected virtual void Qux() { }
+    }
+
+    public class Child : Foo
+    {
+        //abstract修饰的方法必须被子类重写
+        public override void Func1()
+        {
+        }
+
+        protected override void Func2()
+        {
+        }
+
+        //virtual修饰的方法可以被子类重写
+        public override void Bar()
+        {
+            base.Bar();
+        }
+        protected override void Qux()
+        {
+            base.Qux();
+        }
+    }
+```
