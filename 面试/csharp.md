@@ -149,3 +149,55 @@ interface I<T>
         }
     }
 ```
+
+## 5. const和readonly
+1. const默认为静态的，不能添加static，只能由类型访问。 readonly默认为非静态，由实例对象访问，可使用static将readonly字段定义为静态成员
+```c#
+    class Foo
+    {
+        //public static const string name; // const不能与static同时使用，const默认为静态的
+        public const int age = 0; //const字段声明必须初始化
+
+        public readonly string name;
+        public static readonly int id; //readonly可使用static
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Foo foo = new Foo();
+            Console.WriteLine(foo.name);//readonly由实例对象访问
+            Console.WriteLine(Foo.id);//访问静态只读字段
+            Console.WriteLine(Foo.age);//const默认为静态，由类型访问
+        }
+
+    }
+```
+2. const字段必须在声明时初始化且表达式不能包含变量，readonly不用
+```c#
+        static int C;
+        const int A = 10 + C; //错误，A必须为常量
+
+        const int D = 10;
+        const int E = D * 10;//可以有表达式
+```
+
+3. const修饰的是静态常量，静态常量是指编译器在编译时会对常量进行解析，编译器不在乎字段定义先后顺序；readonly修饰的是动态常量，动态常量的值只在运行的那一刻才获得，编译期间标识为常量，这样动态常量不必在声明时初始化。
+```c#
+        const int E = D * 10;
+        const int D = 10;
+
+        static readonly int F = G * 10;
+        static readonly int G = 10;//不加static会报错
+
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("E is {0},D is {1} ", E, D);// 100,10
+
+            Console.WriteLine("F is {0},G is {1} ", F, G);// 10,10
+        }
+
+```
+
+4. readonly只能声明在类中，const常量既可以声明在类中也可以声明在函数体中
+5. cons常量只能被声明为简单的值类型和string类型，readonly只读字段可以是任意类型
