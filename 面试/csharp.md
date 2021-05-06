@@ -109,8 +109,8 @@ interface I<T>
 
 ## 5. abstract 与 virtual的区别
 相同之处：  
-1. 都是用于修饰父类方法，通过覆盖父类的定义，让子类重新定义。
-2. 都不能被private访问级别修饰
+1. 都是用于修饰父类方法，通过覆盖父类的定义，让子类重新定义  
+2. 都不能被private访问级别修饰  
 不同之处：     
 1. abstract修饰的方法不能有实现，virtual修饰的方法必须有实现
 2. abstract修饰的方法必须被子类重写，virtual修饰的方法可以被子类重写
@@ -150,7 +150,7 @@ interface I<T>
     }
 ```
 
-## 5. const和readonly
+## 6. const和readonly
 1. const默认为静态的，不能添加static，只能由类型访问。 readonly默认为非静态，由实例对象访问，可使用static将readonly字段定义为静态成员
 ```c#
     class Foo
@@ -201,3 +201,31 @@ interface I<T>
 
 4. readonly只能声明在类中，const常量既可以声明在类中也可以声明在函数体中
 5. cons常量只能被声明为简单的值类型和string类型，readonly只读字段可以是任意类型
+
+
+## 7. delegate,event,EventHandler
+delegate：要把一个方法作为实参传入其它方法的形参时，该形参需要用到委托。  
+委托是一个函数指针类型。当实例化委托时，委托对象会指向某一个函数，实际就是将该函数的地址赋值给该委托对象，则可通过该委托调用该函数了。  
+在delegate定义在类外部修饰符必须是：public或inernal(默认)，在类内部则可使用其它修饰符。  
+```c#
+public delegate string Transformer(int n);
+public class Program{
+    public string Bar(int num)
+    {
+        Console.WriteLine(num.ToString());
+    }
+    public void Test(int n,Transformer trans){
+        trans(n);
+    }
+    public void Main(){
+        Test(10,Bar);
+    }
+    //多播
+    
+            Transformer trans = null;
+            trans += Foo;
+            trans += Qux;
+            trans();
+}
+```
+event: 事件是一种特殊的委托,
