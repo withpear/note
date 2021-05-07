@@ -209,7 +209,8 @@ delegate：要把一个方法作为实参传入其它方法的形参时，该形
 在delegate定义在类外部修饰符必须是：public或inernal(默认)，在类内部则可使用其它修饰符。  
 ```c#
 public delegate string Transformer(int n);
-public class Program{
+public class Program
+{
     public string Bar(int num)
     {
         Console.WriteLine(num.ToString());
@@ -221,11 +222,10 @@ public class Program{
         Test(10,Bar);
     }
     //多播
-    
-            Transformer trans = null;
-            trans += Foo;
-            trans += Qux;
-            trans();
+    Transformer trans = null;
+    trans += Foo;
+    trans += Qux;
+    trans();
 }
 ```
-event: 事件是一种特殊的委托,
+event: 事件是一种特殊的委托,它为委托提供了一种订阅/发布机制，事件只能在类的内部声明和触发，用来防止订阅者之间互相干扰。
