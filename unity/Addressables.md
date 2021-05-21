@@ -1,6 +1,7 @@
 # Unity Addressables
 
 ## Content update workflow 内容更新工作流
+Process pseudo code:  
 ```c#
 while(New unity version)
 {
