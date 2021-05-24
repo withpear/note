@@ -1,9 +1,80 @@
-# Unity Addressables
+# Unity Addressable Asset System
+It provides an easy way to asynchronous load assets by "address" from anywhere (local or remote).  
 
-## Content update workflow 内容更新工作流
-Process pseudo code:  
+## Install
+Select `Window > Package Manager`, find `Addressables` and install.  
+**Note:** The defualt version is 1.1.10, in order to use the latest version, should expand `Addressables` in `Window > Package Manager`, click `see all version` to select the appropriate version.
+
+## Concept
+### Relationship between Group and AssetBundle
+A group can generate one or more bundles by the groups' build settings.
+`Advanced Options > Bundle Mode > `  
+`Pack Together`:  a single asset bundle will be created for the entire group, with the exception of scenes, which are packed in a second bundle  
+`Pack Separately`: an asset bundle will be created for each entry in the group  
+`Pack Separately by label`: a single asset bundle will be created for the entires with same label, ...
+
+
+## API Example
+### Load or instantiate an Addressable Asset 
+
+1. Using the AssetReference class  
 ```c#
-while(New unity version)
+    public AssetReference assetReference;
+```
+```c#
+    assetReference.LoadAssetAsync<GameObject>();//load
+```
+```c#
+    assetReference.InstantiateAsync();//instantiate 
+```
+2. Using the AssetLabelReference class  
+```c#
+    public AssetLabelReference assetLabelReference;
+```
+```c#
+    Addressables.LoadAssetAsync<GameObject>(assetLabelReference);//load
+```
+```c#
+    Addressables.InstantiateAsync(assetLabelReference);//instantiate 
+```
+3. Loading or instantiating by address
+```c#
+    Addressables.LoadAssetAsync<GameObject>("AssetAddress");//load
+```
+```c#
+    Addressables.InstantiateAsync("AssetAddress");//instantiate 
+``` 
+
+### Load multiple Addressable Assets 
+1. Using single label or key  
+```c#
+    Addressables.LoadAssetsAsync<GameObject>("wikipe", obj => { Instantiate(obj); }); //wikipe can be key or label
+```
+2. Using key and label combination  
+
+```c#
+    Addressables.LoadAssetsAsync<GameObject>(
+           new string[] { "key", "label" },
+           obj => { Instantiate(obj, Random.insideUnitSphere * 3, Quaternion.identity); },
+           Addressables.MergeMode.Intersection);
+```
+* MergeMode.None - Takes the results from the first key.
+* MergeMode.UseFirst - Takes the results from the first key.
+* MergeMode.Union - Takes results of each key and collects items that matched any key.
+* MergeMode.Intersection - Takes results of each key, and collects items that matched every key.
+
+3. Using the IResourceLocations 
+```c#
+    var locations = Addressables.LoadResourceLocationsAsync(new List<string>{ "key", "label" }, Addressables.MergeMode.Intersection);
+        Addressables.LoadAssetsAsync<GameObject>(locations.Result,
+            obj => { Instantiate(obj, Random.insideUnitSphere * 3, Quaternion.identity); });
+```
+
+
+## Content update workflow
+pseudo code: 
+```c#
+while(New unity version or New Addressabels vesion)
 {
     while(New logic)
     {
@@ -11,16 +82,39 @@ while(New unity version)
         {
             if (n == 1)
             {
-                Click `Addressables Groups Windows/Build/New Build/New Build/Default Build Script`
+                Set `Group Inspector > Content Update Restriction > Update Restriction`. Once set, it can't be modified anymore.
+                Click `Addressables Groups Windows > Build/New Build > New Build > Default Build Script`,  and `addressables_content_state.bin` will be generated, the file should be included in version control.
             }
-            Click `Addressables Groups Windows/Tools/Check for Content Update Restrictions`
-            Click `Addressables Groups Windows/Build/Update a Previous Build`(This will update addressables_content_state.bin)
+            else
+            {
+                Click `Addressables Groups Windows > Tools > Check for Content Update Restrictions`
+                Click `Addressables Groups Windows > Build > Update a Previous Build`(This will update addressables_content_state.bin)
+            }
         }
-        Click `File/Build Settings/Build`
+        Click `File > Build Settings > Build`
     }
 }
-
 ```
+
+### Content update example:   
+* 假设用户设备中已有local Static BundleX（AssetA, AssetB, AssetC）, 当修改AssetA后并进行 Content update workflow，用户热更新后此时游戏对AssetA的引用在content_update_group（AssetA） 中，原来的bundleX中的AssetA会永远残留在用户设备中并保持未使用状态（失去引用）。
+
+* 假设有Static Remote Bundle（AssetL, AssetM, AssetN）,游戏build后，又修改了AssetL并进行 Content update workflow。 若用户之前缓存了该Bundle,那么只需要通过content_update_group下载AssetL；如果用户未缓存该bundle,那么不仅需要通过content_update_group下载AssetL，还需要通过该Bundle下载所有Assets，包括其中过时的再也不会引用的AssetL
+
+* 假设有 Remote NonStatic Bundle（AssetX, AssetY, AssetZ），游戏build后，又修改了AssetX并进行 Content update workflow。如果用户在更新前缓存了该bundle，那么更新后再也不会引用该bundle,它会一直存在在缓存中。旧的该bundle会被替换成新版本bundle，用户需要重新下载该bundle，对AssetX的引用也在新的bundle中。 如果用户未缓存过该bundle，那么只需要下载最新版本的 Remote NonStatic Bundle即可。  
+
+### static 与 non-static 对比
+`static content`: 设置为`Cannot Change Post Release`的group, 若修改其中的assets后热更新，修改后的assets会移动到新的bundle中，只需要下载新的bundle，原有旧的assets失去引用残留在用户设备中。适用于长久存于游戏中的功能性功能，例如更新背景音乐等。  
+`non-static content`:   设置为`Can Change Post Release`的group，修改其中任何一个asset，整个bundle包会重新下载，适用于bundle包较小，更新频繁的情景，例如公告活动更新。
+
+
+**Note:** 
+1. 每次修改 static content group 中的assets后，通过`Addressables Groups Windows > Tools > Check for Content Update Restrictions`会生成新的 Content Update Group，不会覆盖之前的 Content Update Group。（补丁上打补丁）
+
+2. 一次修改 static content group 中的多个assets后, 通过`Addressables Groups Windows > Tools > Check for Content Update Restrictions`， 这些修改后的assets会移动到新的 Content Update Group（non-static），这样当它们打包到一个bundle后，若下次更新其中一个asset，该group中其它未被修改的assets也会被重新下载。  
+为避免上述情况，可设置该Content Update Group（non-static）的`Group Inspector > Content Packing & Loading > Advanced Options >  Bundle Mode`为 `Pack Separately` 或 `Pack Together By Label`，这样assets会分开打包到不同的bundle中。
+
+
 CDN: content delivery network  
 让每一个网站都实现服务器自由。让离你最近的服务器给你发送数据，并且有缓存机制，能让多次相同的请求数据直接从缓存服务器获取，而无需请求源服务器。  
 
