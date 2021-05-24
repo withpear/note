@@ -114,6 +114,7 @@ while(New unity version or New Addressabels vesion)
 2. 一次修改 static content group 中的多个assets后, 通过`Addressables Groups Windows > Tools > Check for Content Update Restrictions`， 这些修改后的assets会移动到新的 Content Update Group（non-static），这样当它们打包到一个bundle后，若下次更新其中一个asset，该group中其它未被修改的assets也会被重新下载。  
 为避免上述情况，可设置该Content Update Group（non-static）的`Group Inspector > Content Packing & Loading > Advanced Options >  Bundle Mode`为 `Pack Separately` 或 `Pack Together By Label`，这样assets会分开打包到不同的bundle中。
 
+# 文档翻译
 
 CDN: content delivery network  
 让每一个网站都实现服务器自由。让离你最近的服务器给你发送数据，并且有缓存机制，能让多次相同的请求数据直接从缓存服务器获取，而无需请求源服务器。  
