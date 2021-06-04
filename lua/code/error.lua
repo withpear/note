@@ -3,7 +3,6 @@ local function func()
 end
 
 local function handler(e)
-    --print(debug.traceback())
     e.code = 10
     return e
 end
