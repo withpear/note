@@ -3,7 +3,7 @@ local _ENV = {
     b = 1,
     print = _ENV.print
 }
-print(b)
+print(b) --3
 
 a = 1
 print("_G:", a) --1
