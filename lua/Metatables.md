@@ -1,15 +1,14 @@
 # 元表与元方法
 
-* Lua中每个值都可以有一个metatable用于定义在特定操作下的行为
+* meatatable 是一个Lua table, 用于定义一个值在特定操作下的行为
+    
+    * Lua中每个值都可以有一个metatable， 使用getmetatable(value)获取metatable， 使用setmatatble(value)定义或替换metatable
 
-    * 可以使用 getmetatable 获取元表， 使用 setmetatable 设置新的元表
+    *  最好先创建好一个完整的metatable，然后再设置为某个值的metatable
 
-    * 元表中的事件的key由双下划线加字符串组成，对应的value叫做 metamethod
+    * metatable 类似于一个容器，其中的每一个条目都定义了一个行为，条目的key由双下划线前缀加字符串组成，value可以是一个function或一个callable value。
 
-    * Lua中定义了一系列元表可以控制的事件
+    * metatable也可以包含自定义的值，与行为无关。
 
-        * __add: 非数值的相加会调用该元方法
+    * 每一种值类型和function类型都共享一个metatable，table和 full userdata可以共享metatable，也可以有独立的metatable
 
-        * __index: 当table不存在或table中不存在传递的key值时被调用
-
-        * __call: 当要调用一个非函数的值时触发该元方法

@@ -1,6 +1,6 @@
 # 错误处理
 
-* Lua有一套错误处理系统，类似于#C里的exception
+* Lua有一套错误处理系统，类似于#C里的AppDomain.FirstChanceException
 
     * Lua API 使用 error 抛出错误 ， C API使用 lua_error 抛出错误
 
