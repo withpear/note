@@ -1,6 +1,15 @@
-local co = coroutine.create(function ()
-    print("hi")
+local co 
+local co9 =coroutine.create(function ()
+    print(coroutine.status(co)) --normal
 end)
+co= coroutine.create(function ()
+    print("hi")
+    coroutine.resume(co9)
+end)
+coroutine.resume(co)
+
+
+
 
 print(coroutine.status(co)) -- suspended  coroutine被创建后处于挂起状态
 
@@ -41,6 +50,7 @@ local co2 = coroutine.create(function (a,b)
     coroutine.yield(a + b, a - b)
 end)
 print(coroutine.resume(co2, 20, 10)) -- true 30 10 
+print("co2 ",coroutine.status(co2))
 
 -- 3. yield把额外的参数返回给对应的resume
 local co3 = coroutine.create(function (x)
@@ -55,5 +65,3 @@ local co4 = coroutine.create(function ()
     return 4, 5
 end)
 print(coroutine.resume(co4)) -- true 4 5
-
--- Lua提供asymmetric coroutine：需要一个函数（yield）来挂起一个coroutine，需要另一个函数（resume）来唤醒这个被挂起的coroutine
