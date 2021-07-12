@@ -1,8 +1,8 @@
 # outline
 
 - Language
-  - C#/.Net
-  - Lua
+  - **C#/.Net**
+  - **Lua**
   - C/C++
 
 - Concept
@@ -11,7 +11,7 @@
 
 - Tool
 
-  - Unity
+  - **Unity**
   - Protobuf + GRPC 或者 Restful
   - Redis
   - Mysql
