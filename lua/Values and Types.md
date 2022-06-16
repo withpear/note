@@ -44,3 +44,17 @@
   * value可以是任何种类（除了nil）。当value为nil时，表示删除table中该元素
   * table可表示ordinary arrays, lists, symbol tables, sets, records, graphs, trees
   * table类型是一个引用类型
+  * table的两种删除元素方法对比：
+  ```lua
+  local tab = {1, 2, 3}
+  tab[2] = nil
+  print(#tab) -- 3
+  print(tab[2]) -- nil
+  ```
+
+  ```lua
+  local tab = {1, 2, 3}
+  table.remove(tab,2)
+  print(#tab) -- 2
+  print(tab[2]) -- 3
+  ```

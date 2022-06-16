@@ -291,7 +291,7 @@ int Main()
             {
                 if (state == 0)
                 {
-                    var tcs =new TaskCompletionSource<int>();
+                    var tcs = new TaskCompletionSource<int>();
                     PrintDocument("apsldk", (r) => {
                         tcs.SetResult(r);
                     });
