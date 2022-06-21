@@ -1,6 +1,6 @@
 ## Relative Pronouns
 关系代词  
-* 5个最常用的关系代名词：that, which, who, whom, whose   
+* 5个最常用的关系代名词：**that, which, who, whom, whose**   
 that:  可做主语，宾语，可描述人或物  
 which: 可做主语，宾语，只用来描述人  
 who:   可做主语，宾语（非正式），只用来描述人  
@@ -24,7 +24,7 @@ whose: （唯一）只可做物主关系代词，可描述人或物
     "The girl (who is) jumping into the lake is a world-famous diver."
 
 介词宾语
-* 当关系代词whose, which， whom与介词连接用于修饰主语或动词时，叫做介词宾语
+* 当关系代词whose, which, whom与介词连接用于修饰主语或动词时，叫做介词宾语
 * 一般来说，将介词放在关系从句的后面更合适  
 "The teacher with whom I spoke had many interesting things to say. (太正式)"  
 "The teacher (whom/who/that) I spoke with had many interesting things to say.(最常用)"

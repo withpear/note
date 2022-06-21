@@ -1,9 +1,93 @@
+contrast
+negotiate   /ni-ˈgō-shē-ˌāt/
+horde
+souvenir    /ˈsü-və-ˌnir/
+admiring
+growl   /ˈgrau̇(-ə)l /
+field
+injection
+prohibit    /prō-ˈhi-bət/
+dock
+utterly     /ˈə-tər 
+insignificant
+splat
+forbid
+springy /ˈspriŋ-ē/
+aluminum    /ə-ˈlü-mə-nəm/
+inning
+desperate   /ˈdes-p(ə-)rət
+humiliate   /hyü-ˈmi-lē-ˌāt, yü- /
+rumbling
+seduce
+erotic
+hilarious   /hi-ˈler-ē-əs/
+grill
+buffoon  /(ˌ)bə-ˈfün /
+pitiful
+pile
+companion   /kəm-ˈpan-yən/
+uphold
+wearily
+fence
+mend
+dedicate
+substitute  /ˈsəb-stə-ˌtüt, -ˌtyüt /
+circumstance    /ˈsər
+mutilate    /ˈmyü-tə-ˌlāt /
+greasy
+crave
+bam
+apron   /ˈā-prən/
+inform
+rub
+species
+pending
+chittering
+fearfully
+unstoppable
+liftoff
+tank
+gorilla /gə-ˈri-lə/
+gross
+implode
+belly
+fatso
+approximately   /ə-ˈpräk-sə-mət 
+contempt
+quarters
+lay out
+humble
+bedspread
+mood
+pathetic
+champagne
+fellow
+comfy
+kudos
+envy    /ˈen-vē /
+split
+For A Split Second
+overwhelm
+pity
+crawl
+arouse
+threaten
+sanity
+declarative     /di-ˈkler-ə-tiv/
+antiquate
+archaic /är-ˈkā-ik/
+adversary   /ˈad-və(r)-ˌser-ē/
+pompous
+dimwit
+observation
+whimper
+excrete
+formidable /ˈfȯr-mə-də-bəl/
+domestic    /də-ˈmes-tik/
 democratic  /ˌde-mə-ˈkra-tik/
 precede
 convey
-desperate   /ˈdes-p(ə-)rət
 perspective     /pər-ˈspek-tiv /
-confiscate  /ˈkän-fə-ˌskāt/
 perception
 frisky
 retch
@@ -30,7 +114,6 @@ gibberish
 gruesome
 flake
 meddle
-humiliate   /hyü-ˈmi-lē-ˌāt, yü- /
 belch
 trifle  /ˈtrī-fəl/
 tacky
@@ -48,12 +131,9 @@ accommodation
 cramped
 clatter
 shiver
-contrast
 dummy
 generous    /ˈje-nə-rəs/
 architecture    /ˈär-kə-ˌtek-chər /
-
-negotiate   /ni-ˈgō-shē-ˌāt/
 integral    /ˈin-ti-grəl 
 extremely   /ik-ˈstrēm/
 velour  /və-ˈlu̇r/
@@ -64,10 +144,11 @@ anticipate  /an-ˈti-sə-ˌpāt/
 tactical
 ravioli  /ˌra-vē-ˈō-lē,/
 sundae  /ˈsən-(ˌ)dā/
-horde
 classic
 masterwork
-dock
+deck
+imprison
+directive
 risk
 pod /ˈpäd/
 wicker
@@ -88,7 +169,6 @@ medal
 disposal    /di-ˈspō-zəl/
 suck
 extinction
-prohibit    /prō-ˈhi-bət/
 brannigan   /ˈbra-ni-gən /
 interfere   /ˌin-tə(r)-ˈfir/
 merely  /ˈmir-lē/
