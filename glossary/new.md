@@ -1,22 +1,8 @@
-confiscate  /ˈkän-fə-ˌskāt/
-grope
-jumbo
-mandatory
-steroid
-league
-wireless
-howitzer
-competition
-polish
-sight
-murderous
+canoe
 radical
-separatist
-tribute
-ancestral
-prototype
-sacred
+separatist  /ˈse-p(ə-)rə-tist/
+ancestral   /an-ˈses-trəl/
 diversity
 extent
-grudge
-mutually
+grudge  /ˈgrəj/
+mutually    /ˈmyü-chə-wəl/

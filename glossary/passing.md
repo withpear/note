@@ -1,3 +1,18 @@
+tribute
+prototype
+sacred    /ˈsā-krəd/
+league
+wireless
+howitzer    /ˈhau̇-ət-sər/
+competition
+polish
+sight
+murderous
+
+confiscate  /ˈkän-fə-ˌskāt/
+grope
+jumbo
+mandatory
 contrast
 negotiate   /ni-ˈgō-shē-ˌāt/
 horde
