@@ -1,38 +1,21 @@
-polite
+promising
+observe
+lame
+brilliant
+virus
+inventor
+Turk
+unbeatable
+jam
+illustrate
+reluctant
+lubricate
+obscene
+fancy
 political
 culmination
-pinch
-reluctant
-allergic
-harem
-maiden
-consort
-shiftless
-mild
-soaking
-gala
-nocturnal
-flawless
-recite recitation
-oath
-political
-satirist
-wipe
-reign
-ascend
-tremendous
-spot
-thumb
-reckless
-grasshopper
-octopus
-acorn
-mooch
-legend
-pleasant
-fancy
 
-
+look up to sb
 mooch off
 thumb through
 beat around the bush

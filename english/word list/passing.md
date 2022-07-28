@@ -1,4 +1,53 @@
-
+peruse
+chateau /sha-ˌtō/
+exquisite
+toupee
+stain
+fortify
+scuba
+distinguished
+telescope
+doodle
+minus
+presentation
+fetch
+delight
+jug
+lineup
+symposium   /sim-ˈpō-zē-əm/
+nerd
+wrinkle
+senile
+nap
+fateful
+penmanship
+essentially
+vomit
+slurp
+pulp
+integrity
+stagnant
+viscous
+liquor  /ˈli-kər/
+armpit
+veneer*  /və-ˈnir/
+pimple
+moist
+dewy    /ˈdü-ē/
+illustrate
+inherent
+adjunct
+chunky
+insanity
+unisex
+robe
+glowing
+tummy
+urinate
+macho
+grudge
+culmination
+tender
 wipe
 satirist
 reluctant
@@ -17,7 +66,6 @@ succumb     /sə-ˈkəm/
 sitcom
 stereo  /ˈster-ē-ˌō/
 contented   /kən-ˈten-təd/
-culmination
 recite
 allergic
 reign
@@ -79,9 +127,6 @@ thunder
 Mercury     /ˈmər-kyə-rē/
 Venus       /ˈvē-nəs/  Earth
 Mars
-Jupiter     /ˈjü-pə-tər/
-Saturn      /ˈsa-tərn/
-Uranus      /ˈyu̇r-ə-nəs/
 Neptune     /ˈnep-ˌtün/     neptunian/nep-ˈtü-nē-ən/
 rhyme
 kick    
@@ -209,7 +254,6 @@ hilarious   /hi-ˈler-ē-əs/
 contempt
 retch
 erotic
-grudge  /ˈgrəj/
 hatred
 competition
 defendant   /di-ˈfen-dənt/

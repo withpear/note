@@ -14,12 +14,22 @@
 "I swim every day."  
 "She reads many books."  
 "He talked for several hours."  
+### 常用Finite verbs
+* 第三人称单数现在时动词以-s结尾(情态动词不可加-s)  
+"He runs to the store every morning."  
+
+* 过去式(不是过去分词)
+"She was feeling unwell." (past tense – finite)  
+"She has been feeling unwell." (past participle – non-finite
+
+* 紧跟主语
+"Everyone listened to the music."
 
 
 ## Non-finite verbs
 * 非限定动词是指没有对应的时态或主语的动词  
 * 非限定动词通常是**不定式(infinitive)、动名词(Gerunds)或分词(Participles)**    
-* 动名词(Gerunds)和现在分词(present participles)以-ing结尾，而过去分词(past participles)通常以-ed、-d或-t结尾  
+* 动名词(Gerunds)和现在分词(present participles)**以-ing结尾**，而过去分词(past participles)通常**以-ed、-d或-t结尾**  
 
 
 ### infinitive

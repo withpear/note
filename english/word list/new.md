@@ -1,28 +1,6 @@
-slurp
-viscous
-moist
-stagnant
-dewy
-principally
-chunky
-insanity
-integrity
-unisex
-robe
-liquor
-freak
-glowing
-creep
-tummy
-armpit
-vomit
-urinate
-veneer
-peel
-macho
-pimple
-disturbing
-grudge
-attitude
-pulp
-tender
+foul
+Saturn      /ˈsa-tərn/
+Uranus      /ˈyu̇r-ə-nəs/
+Jupiter     /ˈjü-pə-tər/
+daresay
+trajectory
