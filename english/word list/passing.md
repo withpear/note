@@ -1,14 +1,195 @@
+lottery
+junk
+dissuade    /di-ˈswād /
+acquaint    /ə-ˈkwānt/
+religion
+sanctify
+scent
+ironic
+foul
+stain
+adjunct
+reckless
+archaic /är-ˈkā-ik/
+subjunctive
+steak
+snack
+lawn
+inquire
+dampen
+wise
+poach
+maxim
+snatch
+rhetorical
+hallucinate*  /hə-ˈlü-sə-ˌnāt/
+spaghetti   /spə-ˈge-tē/
+strand
+flume
+repentance
+potential
+prophet     /ˈprä-fət/
+sentiment
+seam
+agonize
+grip
+congregation
+infernal
+subtlety    /ˈsə-təl-tē/
+syntactic  grammatical
+semantic
+prevent
+eliminate
+director
+naive   /nī-ˈēv/
+ashtray
+sail
+baptism
+flame
+brochure    /brō-ˈshu̇r/
+plug
+witch   witch hunt
+whack   whacked out
+scam
+exceedingly     /-ˈsē-diŋ-lē/
+bosom
+principle
+eternal
+damnation
+monsieur    /məs-ˈyə(r)/
+mineral
+absorb
+hire
+Atlantic
+fasting
+exotic
+purse
+shalt
+thou    /ˈthau̇/
+tempt
+porkpie
+audition
+vodka   /ˈväd-kə/
+caught
+stench
+eternity
+salmonella
+omit
+imply
+pit
+cruller
+density
+shatter
+missile     /ˈmi-səl/
+sabotage    /ˈsa-bə-ˌtäzh/
+subpoena    /sə-ˈpē-nə/
+versatile   /ˈvər-sə-təl/
+crate
+nebula 
+pilot
+addictive
+psychedelic* /ˌsī-kə-ˈde-lik/
+swallow
+jolt
+ditch
+mirage
+sack
+booze
+kleptomania* /ˌklep-tə-ˈmā-nē-ə/
+sugarcane
+preach
+gutter
+wretched
+profile     /ˈprō-ˌfī(-ə)l/
+flint
+tape
+coal
+counter
+personality
+glass
+sinner
+stoned
+climb
+heap
+abuse
+electricity
+Sicily
+laughter    /ˈlaf-tər/
+tenure
+deposit
+inferior
+maid
+debt
+confiscate
+repulsive
+coil
+crater
+vomit
+lubricate
+recite
+chuckle
+chunky
+reluctant
+puny
+gooey
+precise
+floppy
+theory
+bomb
+activate
+objection
+odor
+magnitude
+hiss
+squish
+glorious
+monument
+plate
+dig
+pile
+ridge
+upside
+doomed
+husk
+slob
+especially
+miserably
+graduate
+consistency
+smashing
+behalf
+jackass
+apparent
+criterion   /krī-ˈtir-ē-ən/
+napkin
+crisis
+expert
+gusto
+cotton
+gin
+fraud
+trajectory
+Saturn      /ˈsa-tərn/
+Uranus      /ˈyu̇r-ə-nəs/
+Jupiter     /ˈjü-pə-tər/
+daresay
+loot  rab
+landfill
+jersey  /ˈjər-zē/
+filthy
 peruse
 chateau /sha-ˌtō/
 exquisite
-toupee
-stain
 fortify
-scuba
+leap
+pansy*
+swamp
+refreshing
+stagnant
+veneer*  /və-ˈnir/
+illustrate
 distinguished
-telescope
 doodle
-minus
 presentation
 fetch
 delight
@@ -22,22 +203,16 @@ nap
 fateful
 penmanship
 essentially
-vomit
 slurp
 pulp
 integrity
-stagnant
 viscous
 liquor  /ˈli-kər/
 armpit
-veneer*  /və-ˈnir/
 pimple
 moist
 dewy    /ˈdü-ē/
-illustrate
 inherent
-adjunct
-chunky
 insanity
 unisex
 robe
@@ -50,23 +225,19 @@ culmination
 tender
 wipe
 satirist
-reluctant
 harem
 tremendous
 shiftless
 flawless
-reckless
 soaking
 gulp
 gill
 surveillance
-lubricate
 obscene
 succumb     /sə-ˈkəm/
 sitcom
 stereo  /ˈster-ē-ˌō/
 contented   /kən-ˈten-təd/
-recite
 allergic
 reign
 ascend
@@ -82,21 +253,17 @@ grasshopper
 octopus
 acorn
 legend
-consort
 mild
 hypothetical
 lime
-leap
 glide
 isolation
 spit
 lethal
-chuckle
 assassinate
 hail
 majesty
 priest
-pansy*
 jaguar
 deluxe  /di-ˈləks/
 fricassee*   /ˈfri-kə-ˌsē/
@@ -106,14 +273,12 @@ powder
 acid
 sailboat
 tiresome
-swamp
 nightmarish
 weasel
 terror
 fade
 vision
 royal
-refreshing
 sealed
 strangle
 stench
@@ -200,12 +365,10 @@ auction
 folk
 squid
 prehistoric
-junk
 coward      /ˈkau̇(-ə)rd/
 humiliate   /hyü-ˈmi-lē-ˌāt/
 cord
 perception
-archaic /är-ˈkā-ik/
 hilarity
 incidentally
 trespass
@@ -424,7 +587,6 @@ crummy  /ˈkrə-mē/
 neuter
 modern
 truffle
-jersey  /ˈjər-zē/
 tale
 tasty
 reiterate   /rē-ˈi-tə-ˌrāt /
@@ -480,6 +642,7 @@ canoe   /kə-ˈnü/
 separatist  /ˈse-p(ə-)rə-tist/
 ancestral   /an-ˈses-trəl/
 tribute
+
 prototype
 sacred    /ˈsā-krəd/
 howitzer    /ˈhau̇-ət-sər/
@@ -704,146 +867,6 @@ drain
 interference    /-ˈfir-ən(t)s /
 antenna /an-ˈte-nə /
 outrage
-filthy
-usage  /ˈyü-sij, -zij /
-miserable   /ˈmi-zər-bəl, ˈmiz-rə-, ˈmi-zə-rə- /
-mission
-admission
-sinful
-consumption
-determiner  /-ˈtər-mə-nər /
-adjective   /ˈa-jik-tiv also ˈa-jə-tiv /
-adverb      /ˈad-ˌvərb /
-predicate   /ˈpre-di-kət /
-plural      /ˈplu̇r-əl /
-dynamical    /dī-ˈna-mi-kəl/
-factor 
-differ      /ˈdi-fər /
-capability      /ˌkā-pə-ˈbi-lə-tē /
-notification    /ˌnō-tə-fə-ˈkā-shən /
-proof
-chain   /ˈchān /
-dial
-masculine /ˈmas-kyə-lən /
-vary
-feminine /ˈfe-mə-nən /
-digit   /ˈdi-jət /
-measurement /ˈme-zhər-mənt, ˈmā- /
-quantify
-category    /ˈka-tə-ˌgȯr-ē /
-proper      /ˈprä-pər /
-concrete    /(ˌ)kän-ˈkrēt, ˈkän-ˌ, kən-ˈ /
-collective  /kə-ˈlek-tiv /
-attributive /ə-ˈtri-byə-tiv /
-preposition /ˌpre-pə-ˈzi-shən /
-conjunction /kən-ˈjəŋ(k)-shən /
-particle
-possessive  /pə-ˈze-siv also -ˈse- /
-combination /ˌkäm-bə-ˈnā-shən /
-hyphenated  /ˈhī-fə-ˌnāt /
-agreement
-purely
-medical
-standard
-balloon /bə-ˈlün /
-cyborg
-enslave
-explosive   /ik-ˈsplō-siv, -ziv /
-federal /ˈfe-d(ə-)rəl /
-rot /ˈrät /
-essential   /i-ˈsen(t)-shəl 
-term
-agency
-infinitive  /in-ˈfi-nə-tiv /
-reflexive   /ri-ˈflek-siv /
-intensive   /in-ˈten(t)-siv /
-indefinite  /(ˌ)in-ˈdef-nət, -ˈde-fə- /
-hollow  ˈhä-(ˌ)lō
-collapse
-giggle
-charity
-theater /ˈthē-ə-tər
-definitely
-chore   /ˈchȯr/ 
-chop
-emphasis
-parade  /pə-ˈrād /
-floats  /ˈflōt /
-diarrhea    /ˌdī-ə-ˈrē-ə /
-dodder
-gelatinous  /jə-ˈlat-nəs, -ˈla-tə-nəs /
-parasite
-phony
-gobbling    /ˈgä-bəl/
-wisdom
-career  /kə-ˈrir /
-tune
-desert  /ˈde-zərt /
-engage
-investigate
-tangible
-endurance
-indicate
-triple  /ˈtri-pəl /
-committee
-owl
-trap
-sarcophagus /sär-ˈkä-fə-gəs /
-gerund (-ing)
-pajama
-snore
-whirl
-radiation
-poke
-agenda
-yawn
-stretch
-nook
-frustrate
-electronic
-tribe   /ˈtrīb /
-bachelor    /ˈbach-lər/
-circuit
-pant
-swiftly
-sled
-whereas /hwer-ˈaz
-orchestra   /ˈȯr-kəs-trə/
-platoon /plə-ˈtün
-general
-offense
-march
-revoke
-exterior    /ek-ˈstir-ē-ər /
-secretary   /ˈse-krə-ˌter-ē/
-conjugate
-spoonful    /ˈspün-ˌfu̇l /
-poultry
-manner
-bushed
-tilt
-implant
-tongue
-union
-muffle
-shovel  /ˈshə-vəl /
-blastoff
-vessel
-nutritious
-malt    /ˈmȯlt /
-colleague   /ˈkä-(ˌ)lēg /
-crap
-sty
-mourn   /ˈmȯrn /
-industrialist
-cable   /ˈkā-bəl /
-satellite
-transmit
-drain
-interference    /-ˈfir-ən(t)s /
-antenna /an-ˈte-nə /
-outrage
-filthy
 usage  /ˈyü-sij, -zij /
 miserable   /ˈmi-zər-bəl, ˈmiz-rə-, ˈmi-zə-rə- /
 mission
