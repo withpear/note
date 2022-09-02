@@ -404,7 +404,6 @@ sweater sweat sweet
 jockey
 rocker *
 trademark
-period      /ˈpir-ē-əd/
 hyperventilation
 annihilate  /ə-ˈnī-ə-ˌlāt/
 obligation
