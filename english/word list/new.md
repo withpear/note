@@ -1,22 +1,22 @@
-loan
-encounter
-.   full stop (period/ˈpir-ē-əd/)
-,   comma
-"   double quotation mark
-'   apostrophe / single quotation mark
--   hyphen
-?   question mark
-:   colon
-!   exclamation mark
-;   semicolon
-enthusiastic
-characteristic
-idiomatic
-ironically
-prolific
-denote
-donate
-infectious
-sentiment
-colloquial
-contract
+clamor
+Irish
+slosh
+casino
+bisque
+buffet
+inspection
+malfunction
+countess
+laborer
+leisure
+chest
+comet
+iceberg
+jalapeno
+tailpipe
+cabin
+conceive
+sniff
+accommodation
+platonic
+awkward

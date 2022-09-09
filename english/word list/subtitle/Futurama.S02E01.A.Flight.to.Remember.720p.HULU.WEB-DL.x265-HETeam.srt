@@ -753,7 +753,7 @@ was a terrible, terrible‐‐
 
 176
 00:07:38,866 --> 00:07:39,833
-Hmm?
+Hmm
 
 177
 00:07:39,866 --> 00:07:41,300
@@ -763,7 +763,7 @@ Mmm.
 00:07:41,333 --> 00:07:43,766
 Leela, perhaps this
 is an awkward time
-
+***
 179
 00:07:43,800 --> 00:07:47,166
 but if things don't

@@ -27,240 +27,49 @@ blind date
 in addition to
 
 
-poach
-maxim
-lottery
-junk
-dissuade    /di-ˈswād /
-acquaint    /ə-ˈkwānt/
-religion
-sanctify
-scent
-ironic
-foul
-stain
-adjunct
-reckless
-archaic /är-ˈkā-ik/
-subjunctive
-steak
-snack
-lawn
-inquire
-dampen
-wise
-poach
-maxim
-snatch
-rhetorical
-hallucinate*  /hə-ˈlü-sə-ˌnāt/
-spaghetti   /spə-ˈge-tē/
-strand
-flume
-repentance
-potential
-prophet     /ˈprä-fət/
+loan
+encounter
+comma
+quotation
+apostrophe  /ə-ˈpäs-trə-(ˌ)fē/
+hyphen
+colon
+exclamation
+enthusiastic    /in-ˌthü-zē-ˈas-tik/
+characteristic
+idiomatic
+ironically
+prolific    
+denote  
+donate
+infectious
 sentiment
-seam
-agonize
-grip
-congregation
-infernal
-subtlety    /ˈsə-təl-tē/
-syntactic  grammatical
-semantic
-prevent
-eliminate
-director
-naive   /nī-ˈēv/
-ashtray
-sail
-baptism
-flame
-brochure    /brō-ˈshu̇r/
-plug
-witch   witch hunt
-whack   whacked out
-scam
-exceedingly     /-ˈsē-diŋ-lē/
-bosom
-principle
-eternal
-damnation
-monsieur    /məs-ˈyə(r)/
-mineral
-absorb
-hire
-Atlantic
-fasting
-exotic
-purse
-shalt
-thou    /ˈthau̇/
-tempt
-porkpie
-audition
-vodka   /ˈväd-kə/
-caught
-stench
-eternity
-salmonella
-omit
-imply
-pit
-cruller
-density
-shatter
-missile     /ˈmi-səl/
-sabotage    /ˈsa-bə-ˌtäzh/
-subpoena    /sə-ˈpē-nə/
-versatile   /ˈvər-sə-təl/
-crate
-nebula 
-pilot
-addictive
-psychedelic* /ˌsī-kə-ˈde-lik/
-swallow
-jolt
-ditch
-mirage
-sack
-booze
-kleptomania* /ˌklep-tə-ˈmā-nē-ə/
-sugarcane
-preach
-gutter
-wretched
-profile     /ˈprō-ˌfī(-ə)l/
-flint
-tape
-coal
-counter
-personality
-glass
-sinner
-stoned
-climb
-heap
-abuse
-electricity
-Sicily
-laughter    /ˈlaf-tər/
-tenure
-deposit
-inferior
-maid
-debt
-confiscate
-repulsive
-coil
-crater
-vomit
-lubricate
-recite
-chuckle
-chunky
-reluctant
-puny
-gooey
-precise
-floppy
-theory
-bomb
-activate
-objection
-odor
-magnitude
-hiss
-squish
-glorious
-monument
-plate
-dig
-pile
-ridge
-upside
-doomed
-husk
-slob
-especially
-miserably
-graduate
-consistency
-smashing
-behalf
-jackass
-apparent
-criterion   /krī-ˈtir-ē-ən/
-napkin
-crisis
-expert
-gusto
-cotton
-gin
-fraud
-trajectory
-Saturn      /ˈsa-tərn/
-Uranus      /ˈyu̇r-ə-nəs/
-Jupiter     /ˈjü-pə-tər/
-daresay
-loot  rab
-landfill
-jersey  /ˈjər-zē/
-filthy
-peruse
-chateau /sha-ˌtō/
-exquisite
-fortify
-leap
-pansy*
-swamp
-refreshing
-stagnant
-veneer*  /və-ˈnir/
-illustrate
-distinguished
-doodle
-presentation
-fetch
-delight
-jug
-lineup
-symposium   /sim-ˈpō-zē-əm/
-nerd
-wrinkle
-senile
-nap
-fateful
-penmanship
-essentially
-slurp
-pulp
-integrity
-viscous
-liquor  /ˈli-kər/
-armpit
-pimple
-moist
-dewy    /ˈdü-ē/
-inherent
-insanity
-unisex
-robe
-glowing
-tummy
-urinate
-macho
-grudge
-culmination
-tender
-wipe
-satirist
-harem
-tremendous
-shiftless
-flawless
-soaking
+colloquial
+contract
+courage
+torture
+warrant
+prank
+nun
+upbringing
+sin
+scratch
+motel
+spar
+blister
+indecent
+torment
+fiddle
+contest
+waiver
+fairness
+drum
+throat
+discordant
+screeching
+choir
+
+
 gulp
 gill
 surveillance

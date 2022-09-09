@@ -1,5 +1,68 @@
-lottery
-junk
+shove
+violation
+minimum
+wage
+voyage
+luxurious
+cruise
+honorary
+retiree
+christen
+witness
+subtle
+waltz
+seduction
+sensual
+boot
+fiancé
+stateroom
+marble
+fiesta
+holistic
+occupy
+divine
+loan
+encounter
+comma
+quotation
+apostrophe  /ə-ˈpäs-trə-(ˌ)fē/
+hyphen
+colon
+exclamation
+enthusiastic    /in-ˌthü-zē-ˈas-tik/
+characteristic
+idiomatic
+ironically
+prolific    
+denote  
+donate
+infectious
+sentiment
+colloquial
+contract
+courage
+torture
+warrant
+prank
+nun
+upbringing
+sin
+scratch
+motel
+spar
+blister
+indecent
+torment
+fiddle
+contest
+waiver
+fairness
+drum
+throat
+discordant
+screeching
+choir
+
 dissuade    /di-ˈswād /
 acquaint    /ə-ˈkwānt/
 religion
@@ -12,6 +75,9 @@ adjunct
 reckless
 archaic /är-ˈkā-ik/
 subjunctive
+accustomed
+repentance
+potential   /pə-ˈten(t)-shəl/
 steak
 snack
 lawn
@@ -26,10 +92,7 @@ hallucinate*  /hə-ˈlü-sə-ˌnāt/
 spaghetti   /spə-ˈge-tē/
 strand
 flume
-repentance
-potential
 prophet     /ˈprä-fət/
-sentiment
 seam
 agonize
 grip
@@ -64,6 +127,8 @@ Atlantic
 fasting
 exotic
 purse
+lottery
+junk
 shalt
 thou    /ˈthau̇/
 tempt
