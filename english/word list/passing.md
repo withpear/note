@@ -1,3 +1,55 @@
+clamor
+Irish
+slosh 
+casino
+bisque
+buffet
+inspection
+malfunction
+countess
+laborer
+leisure
+chest
+comet
+iceberg
+jalapeno
+tailpipe
+cabin
+conceive
+sniff
+accommodation
+platonic
+awkward
+farewell
+tragic
+ton
+yacht
+waist
+thud
+match
+stroll
+region
+cowardice
+catastrophe
+delicate
+manure
+glance
+sincerity
+burden
+flexible
+lean
+chump
+penniless
+raccoon
+bracelet
+lusty
+coy
+boost
+honk
+horn
+shapely
+
+predicate *   /ˈpre-di-kət/  /ˈpre-də-ˌkāt/
 shove
 violation
 minimum
@@ -940,7 +992,6 @@ consumption
 determiner  /-ˈtər-mə-nər /
 adjective   /ˈa-jik-tiv also ˈa-jə-tiv /
 adverb      /ˈad-ˌvərb /
-predicate   /ˈpre-di-kət /
 plural      /ˈplu̇r-əl /
 dynamical    /dī-ˈna-mi-kəl/
 factor 

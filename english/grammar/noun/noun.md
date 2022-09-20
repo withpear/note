@@ -1,71 +1,58 @@
-## Nouns
+# Nouns
+Noun = Subject | Object | Preposition | PredicateNoun  
+    Object = DirectObject | IndirectObject | ObjectOfPreposition  
+        1. DirectObject: receive the action of verb  
+        2. IndirectObject: receive the direct object  
+        3. ObjectOfPreposition: PrepositionPhrase  
+    PredicateNoun = LinkingVerb NounPhrase  
+        LinkingVerb = is | seem | ...
 
-### The Subject
-### Objects
-* Direct objects
-* Indirect objects
-### Objects of prepositions
-### Predicate Nouns
+## CommonNoun
+* name common thing
 
+## ProperNoun
+ProperNoun: Name | Brand | Applecation | JobTitle | FamilialRole
+* Identify unique thing
+* begin with a apital letter
+* is concrete noun
 
+## NounOfAddress
+* Use in direct speech
+* unrelated to the rest
+* set part by comma
 
+## ConcreteNoun
+* physically tangible thing 
 
+## AbstractNoun
+* intangible thing, gerund
+* many of them can be counted
 
+## CountableNoun
+* individual, sparable thing, have plural form
+* exception: Distance, Time, Amount  => the sum as a singular amount 
+* too many, fewer
 
+## UncountableNoun
+* cannot as individual unit
+*  **singular form**
+* too many, less
 
+## CollectiveNoun
+* a collection of thing
+* as singular noun in a sentence
+* Plural Only: certain collective nouns can only be plural. For example: people, children, police, cattle...
 
+## AttributiveNoun
+* call noun adjunct
+* modify other noun together call compound noun
 
+## CompoundNoun
+CompoundNoun = Noun Noun | Adjective Noun | ...
+* as a single unit
+* there written forms: swimming pool, check-in, rainfall
 
+## NounPhrase
+* noun Modifier
+* as a noun
 
-
-
-
-
-
-
-
-
-
-
-
-
-# Categories of Nouns
-
-## Common and Proper Nouns
-
-    
-## Nouns of Address
-## Concrete and Abstract Nouns
-## Countable and Uncountable Nouns
-## Collective Nouns
-## Attributive Nouns (Noun Adjuncts)
-## Compound Nouns
-## Noun Phrases
-
-
-### 
-### 
-### 
-### 
-### 
-
-
-## Nominalization (Creating Nouns)
-### Suffixes
-* Verbs
-    Gerunds
-    Nouns of agency and profession
-    Nouns of recipience
-    Nouns of general action
-* Adjectives
-    “-ness”
-    “-y”
-    “-ity”
-    “-ance” and “-ence”
-### Conversion
-* Verbs
-* Nominal adjectives
-* Infinitives
-    As the subject of a clause
-    As the object of a verb
-    As an object complement

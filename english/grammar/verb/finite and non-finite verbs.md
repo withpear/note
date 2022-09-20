@@ -1,4 +1,18 @@
 # Finite and Non-finite
+
+FiniteVerb = BaseForm | PastTense | ThirdPersonSingular
+
+NonFiniteVerb = Gerund | Infinitive | Participle
+    Gerund = Verb 'ing'
+    Infinitive = FullInfinitive | ModelAuxiliaryVerb BareInfinitive
+        FullInfinitive = to Verb
+        ModelAuxiliaryVerb = can | could |...
+    Participle = PresentParticiple | PastParticiple
+        PresentParticiple = Verb 'ing'
+        PastParticiple = Verb 'd' | Verb 'ed'   
+
+
+
 限定动词与非限定动词  
 * 唯一可以被认为是限定动词是那些原形(不带to的不定式)、过去时或第三人称单数的动词
   
