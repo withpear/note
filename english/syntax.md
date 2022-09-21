@@ -28,10 +28,10 @@ Clause = [PredicateP1] （Subject ｜ CompoundSubject） PredicateP2  #P913
 
 # Phrase
 Phrase = (Determiner| Modifier | Complement)+ TheWordToBeDescribed
-"The bright red car is mine." 
-                    -------- verb phrase.
-     ----------  ajective phrase. 'bright' is a modifier discribe 'red'
- ------------------- noun phrase. 'the' is a determiner describe 'car'
+    "The bright red car is mine." 
+                        -------- verb phrase.
+        ----------              ajective phrase. 'bright' is a modifier discribe 'red'
+    -------------------         noun phrase. 'the' is a determiner describe 'car'
 
 
 
@@ -55,6 +55,10 @@ FiniteVerb = VerbBaseForm | VerbPastTenseForm | VerbThirdPersonSingular | (is | 
 NonFiniteVerb = Infinitive | Gerund | Participle
 Infinitive = to VerbBaseForm
 
+# Object
+Object = Noun | Pronoun
+1. direct/indirect object can complete verb, it's called verb complement
+2. object of prepositon can complete perposition, it's called prepositonal complement
 
 # Modifier
 Modifier = Adjective | Adverb | AdverbialPhrase
@@ -62,13 +66,31 @@ Modifier = Adjective | Adverb | AdverbialPhrase
 2. Complement: modifier that provides essential information #812
 
 
-
- #837
- #860
-
-
-
 # Complement
+VerbComplement = DirectObject [IndirectObject] #也有可能反过来
+    "Please pass me the salt."
+                 --           indirect object. 注意它不是 object complement，它只补足了动词
+                    --------  direct object
+                ------------- verb complement
+
+PerpositionalComplement = PrepositionObject
+    "Your backpack is under the table."
+                            ---------  obejct of perposition 
+                            ---------  perpositional complement
+                      ---------------  prepositional phrase   
+
+[Direct]ObjectComplement = NounOrNounPhrase | 
+    "The committee elected him treasurer."
+                           ---            direct obeject
+                               ---------  noun, object complement. 注意它不是indirect object，它补足了object而不是verb
+                   -------                factitive verb
+#839
+
+
+
+
+
+
 part of predicate
 Complement = Object | ObjectComplement | AdjectiveComplement | AdverbialComplement | SubjectComplement
 AdjectiveComplement = PrepositionalPhrase | Infinitive | InfinitivePhrase | NounClause
