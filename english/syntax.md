@@ -1,5 +1,5 @@
 # Sentence
-SimpleSentence = IndenpendentClause         #P937 
+SimpleSentence = IndenpendentClause                                             #P937 
 ComplexSentence = IndenpendentClause (DependentWord DenpendentClause)+ 
     DependentWord = SubordinatingConjunction | RelativePronoun |...
     SubordinatingConjunction = when | where | ...
@@ -18,7 +18,7 @@ CompoundSentence = SimpleSentence (SentenceConjunction SimpleSentence)+
 CompoundComplexSentence = ComplexSentence (ComplexSentence | SimpleSentence)+
 
 # Clause
-Clause = [PredicateP1] （Subject ｜ CompoundSubject） PredicateP2  #P913
+Clause = [PredicateP1] （Subject ｜ CompoundSubject） PredicateP2                       #P813   P913
     PredicateP1 = AdverbialModifier
     PredicateP2 = 
         FiniteVerb [Object] [Modifier] [Complement]
@@ -27,7 +27,7 @@ Clause = [PredicateP1] （Subject ｜ CompoundSubject） PredicateP2  #P913
 * TODO 不同于CompleteSentence, clause in imperative sentence and non-finite clauses不遵守以上规则
 
 # Phrase
-Phrase = (Determiner| Modifier | Complement)+ TheWordToBeDescribed
+Phrase = (Determiner| Modifier | Complement)+ TheWordToBeDescribed                      #P812
     "The bright red car is mine." 
                         -------- verb phrase.
          ---------               ajective phrase. 'bright' is a modifier discribe 'red'
@@ -35,14 +35,14 @@ Phrase = (Determiner| Modifier | Complement)+ TheWordToBeDescribed
 
 
 # Subject
-Subject = [Determiner] [Modifier] (Noun | Pronoun | PhraseOfNounOrPronoun | Gerund)   #P817
-CompoundSubject = 
+Subject = [Determiner] [Modifier] (Noun | Pronoun | PhraseOfNounOrPronoun | Gerund)     #P815  P817*
+CompoundSubject =           #P829
     Subject CoordinatingConjunction Subject
     Subject, (Subject,)+ CoordinatingConjunction Subject
 
 # Predicate 
-PredicateP2 = 
-    PredicateAction CoordinatingConjunction PredicateAction  #P826
+PredicateP2 =                                                                           #P816 P826
+    PredicateAction CoordinatingConjunction PredicateAction                             #P828
     PredicateAction, (PredicateAction,)+ CoordinatingConjunction PredicateAction
 PredicateAction = 
     FiniteVerb
@@ -60,25 +60,25 @@ Object = Noun | Pronoun
 2. object of prepositon can complete perposition, it's called prepositonal complement
 
 # Modifier
-Modifier = Adjective | Adverb | AdverbialPhrase    #860
+Modifier = Adjective | Adverb | AdverbialPhrase                       #P812 P860
 1. Adjunct: modifier that provides no essential information
-2. Complement: modifier that provides essential information #812
+2. Complement: modifier that provides essential information           #P812
 
 
-# Complement  
-VerbComplement = DirectObject [IndirectObject] #也有可能反过来  #839
+# Complement    #P837-P842  #P833-P834*
+VerbComplement = DirectObject [IndirectObject] #也有可能反过来          #P838
     "Please pass me the salt."
                  --           indirect object. 注意它不是 object complement，它只补足了verb
                     --------  direct object
                 ------------- verb complement
 
-PrepositionalComplement = PrepositionObject
+PrepositionalComplement = PrepositionObject                           #P838
     "Your backpack is under the table."
                             ---------  obejct of preposition 
                             ---------  prepositional complement
                       ---------------  prepositional phrase   
 
-[Direct]ObjectComplement = 
+[Direct]ObjectComplement =                                             #P839
     NounOrNounPhrase
     AdjectiveOrAdjectivePhrase
     RelativeClause
@@ -113,12 +113,13 @@ RelativeClause = DependentClauseStartingWithRelativePronoun
                     ---                     direct object
                         -----------------   gerund phrase. object complement
 
-Adjective[Phrase]Complement =    
+Adjective[Phrase]Complement =                                       #P840  
     PrepositionalPhrase
     InfinitiveOrInfinitivePhrase
     NounClause
 
     "He felt alone in the world."
+        ----                       linking verb
              -----                 adjective
                    -------------   prepositionanl phrase, adjective complement
                       ----------   object of prepositon. prepositional complement
@@ -130,4 +131,27 @@ Adjective[Phrase]Complement =
     "We were a little curious why they decided to leave."
                       -------                              adjective
                               --------------------------   noun clause. adjective complement
-                                         
+
+AdverbialComplement = Adverbial
+    Adverbial = Adverb | AdverbialNoun | AdverbialPhrase | AdverbialPhrase
+1. If the verb is intransitive, the complement will appear directly after the verb; if the verb is transitive, the complement will appear after the verb’s direct object.
+2. 注意词典里没有AdverbialNoun,它们只会写adverb
+
+    "The teacher sent Tim home."
+                          ----   adverbial noun. adverbial complement
+   
+    "Please put the book on the shelf."
+                         ------------- adverbial phrase, adverbial prepositional phrase. adverbial complement
+
+SubjectComplement = 
+    PredicateNoun[Phrase]AfterLinkingVerb 
+    PredicatePronoun
+    PredicativeAdjective
+
+    "Love is a virtue."
+          --             linking verb
+             -           determiner
+               -------   predicate noun
+             ---------   subject complement
+
+    "Tommy seems like a real bully." TODO 

@@ -717,7 +717,7 @@ minister
 potent
 vote
 declension  
-optimal      /ˈäp-tə-məl/
+optimal      /ˈäp-tə-məl/ ***
 optimism    /ˈäp-tə-ˌmi-zəm /
 chassis     /ˈcha-sē/
 refugee 
