@@ -1,9 +1,9 @@
 # Sentence
 SimpleSentence = IndenpendentClause                                             #P937 
 ComplexSentence = IndenpendentClause (DependentWord DenpendentClause)+ 
-    DependentWord = SubordinatingConjunction | RelativePronoun |...
-    SubordinatingConjunction = when | where | ...
-    RelativePronoun = whom | ...
+DependentWord = SubordinatingConjunction | RelativePronoun | RelativeAdverb |...
+SubordinatingConjunction = when | where | ...
+RelativePronoun = whom | ...
 * TODO IndenpendentClause不一定在句首
 1. IndenpendentClause也叫做main clause
 2. IndenpendentClause必须包含完整的逻辑
@@ -11,9 +11,9 @@ ComplexSentence = IndenpendentClause (DependentWord DenpendentClause)+
 4. DenpendentClause依赖IndenpendentClause的逻辑
 
 CompoundSentence = SimpleSentence (SentenceConjunction SimpleSentence)+
-    SentenceConjunction = , CoordinatingConjunction | ; ConjunctiveAdverb [,] | ;
-        CoordinatingConjunction = and | but | ...
-        ConjunctiveAdverb = as a result | therefore | ...
+SentenceConjunction = , CoordinatingConjunction | ; ConjunctiveAdverb [,] | ;
+CoordinatingConjunction = and | but | ...
+ConjunctiveAdverb = as a result | therefore | ...
 
 CompoundComplexSentence = ComplexSentence (ComplexSentence | SimpleSentence)+
 
@@ -64,7 +64,14 @@ Object = Noun | Pronoun                                              #P838  P843
 # Modifier
 Modifier = Adjective | Adverb | AdverbialPhrase                       #P812 P835 P860*
 1. Adjunct: modifier that provides no essential information
-2. Complement: modifier that provides essential information           #P812
+2. Complement: modifier that provides essential information           #P812  好像不对 互斥关系
+P860
+P856    
+Complement不一定是Modifier，比如 Object Complement的NounPhrase
+Complement可能是Modifier，比如Object Complement的RelativeClause
+Modifier可能不是Complement，如果它的信息不是必须要的话。如果Modifier的信息是必要的，那么它一定Complement
+
+
 
 
 # Complement    #P833 P837 P847
@@ -92,7 +99,7 @@ PrepositionalComplement = PrepositionObject                           #P832* P83
     InfinitiveOrInfinitivePhrase
     GerundOrGerundPhrase
 
-RelativeClause = DependentClauseStartingWithRelativePronoun
+RelativeClause = DependentClauseStartingWithRelativePronounOrRelativeAdverb
 
 1. ObjectComplement must follow the direct object
 2. InfinitiveOrInfinitivePhrase describe an act that has not yet been done
@@ -175,42 +182,105 @@ SubjectComplement =                                 #P833* P841 P847*
           --                predicate pronoun. subject complement 
     "It was I who did this."  
             -               predicate pronoun. subject complement 
-1. predicate pronoun 经常用做提问、回答和声明
+2. predicate pronoun 经常用做提问、回答和声明
 
     "You look nice."
          ----       linking verb
-              ----  predicative asjective. subject complement
+              ----  predicative adjective. subject complement
 
     "The cat is in the shed."
                 -----------   prepositional phrase. predicative adjective. subject complement
                 
 
-         
-做题P842
 
 # Infinitive P218
+## as a Noun
+* infinitive the as subject
+"To dream requires incredible courage."
+ --------                               subject
 
-"Please pass me the salt."
-             --             indirect object (person or thing)
-                --------    direct object 
+* infinitive as the subject complement
+"Our aim is to improve."
+            -----------  subject complement
 
-
-* infinitive as direct object
+* as the direct object
 "You appear to be correct."
             -------------   direct object
 
-* infinitive as object complement, 
-"We need you to make a few more copies."
-         ---                            direct object
-             -------------------------- object complement
 "He asked me to help him."
-          --               direct object    
-             -----------   object complement
-        
+          --------------  当不定式有actor时，这个actor可能会被省略掉。 'me to help him' 整体为 direct object
+             -----------  在P220中，'to help him' 称为object complement
 
-* infinitive as adverb
+## as an Adjective           
+"I have a paper to write before class."
+                ----------------------  adjective. 不定式修饰它前面的名词paper，为该名词提供更多信息
+"This is a good place to start reading."
+                      ----------------  adjective. 不定式修饰它前面的名词place，为该名词提供更多信息
+
+## as an Adverb
 "I started running to improve my health."
-                   --------------------- adverb (infinitive as purpose)
+                   --------------------- adverb. 不定式修饰动词running，描述该action发生的原因。称为 infinitives of purpose  
+            
+"We must leave now [in order | so as] to catch our train."
+                                      ------------------   adverb. 不定式修饰动词leave
+                    -----------------                      使用in order/so as可为infinitive of purpose添加形式上的强调
 
 
                    
+# Modifier
+Modifier = Adjectival | Adverbial
+
+-----------------------------   Adjective
+------------                    Attributive Adjective  (appear before the [pro]noun)
+            ---------------     Predicative Adjective  (appear after the noun, connected by a linking verb)
+            --------            Subject Complement     (describe the subject follow a linking verb)
+                    -------     Object Complement      (describe the direct object of non-linking verbs
+
+
+
+-----------------------------   Adjectival(Adjective, Adjective Phrase, Adjective Clause)
+----------------                Modefier
+                -------------   Complement #P310
+
+
+-----------------------------   Adverbial(Adverb, Adverb Phrase, Adverb Clause) #P360
+-------------                   Modefier (Adverbial Adjunct) #P870
+             ----------------   Complement #P858
+
+## Common modifier mistakes  #P867
+1. Misplaced modifiers
+place a modifier too far away from the thing it describes
+"Burton was driving around the countryside while his friend sang songs slowly."
+                                                                       ------   adverb slowly is modifying sang
+"Burton was slowly driving around the countryside while his friend sang songs."
+            ------                                                              adverb slowly is modifying driving
+
+* often occur with participle phrases
+"Terrified after watching a scary movie, my father had to comfort my little sister."
+ --------------------------------------                                             participle phrase seems like modify 'my father'
+
+"My father had to comfort my sister, terrified after watching a scary movie."
+                                     ---------------------------------------  participle phrase modify 'my little sister'
+
+2. Squinting modifiers
+use a modifier in the correct technical position, but its meaning can be misconstrued because of another word that is too close to it
+
+"The way he sings so often annoys me."
+                  --------               'So often' seems like it could be modifying either sings or annoys
+"The way he sings so often is annoying to me."
+                  --------                    'So often' modifies 'sings'                
+"The way he sings annoys me so often."
+                            --------           'So often' modifies 'annoys'   
+
+3. don’t clearly state the noun that is supposed to be modified by the modifying phrase, especially common with participle phrases
+"Walking down the road, the birds were singing."
+ ---------------------                            it seems like modify 'the birds' 
+
+"Walking down the road, I heard the birds singing."
+ ---------------------                             modify 'I' 
+
+
+
+ Q：
+ 1. Sentence，clause，comma
+ 2. 
