@@ -1,4 +1,3 @@
-
 # Infinitive P218
 ## as a Noun
 * infinitive the as subject
