@@ -285,5 +285,5 @@ use a modifier in the correct technical position, but its meaning can be miscons
 
 
  Q：
- 1. Sentence，clause，comma
+ 1. finite verb and non-finite verb  #P118 P126
  2. 
