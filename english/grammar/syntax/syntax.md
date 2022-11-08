@@ -1,5 +1,6 @@
 # Sentence
-SimpleSentence = IndenpendentClause                                             #P937 
+SimpleSentence = IndenpendentClause                                           #P937 
+TODO "Personally, I don’t believe it’s true."
 ComplexSentence = IndenpendentClause (DependentWord DenpendentClause)+ 
 DependentWord = SubordinatingConjunction | RelativePronoun | RelativeAdverb |...
 SubordinatingConjunction = when | where | ...
@@ -14,6 +15,8 @@ CompoundSentence = SimpleSentence (SentenceConjunction SimpleSentence)+
 SentenceConjunction = , CoordinatingConjunction | ; ConjunctiveAdverb [,] | ;
 CoordinatingConjunction = and | but | ...
 ConjunctiveAdverb = as a result | therefore | ...
+
+当两个independent clause 同时出现时，后一个clause为adverb(ial) clause修饰前一个clause
 
 CompoundComplexSentence = ComplexSentence (ComplexSentence | SimpleSentence)+
 
