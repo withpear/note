@@ -38,3 +38,17 @@
                --------------------   adverbial clause of time
 "Peter brings his sunglasses everywhere he goes."
                              ------------------     adverbial clause of place
+
+
+
+
+
+Time of adverb
+Point of time 可以放在句子开头（必须加逗号）或结尾,比如tomorrow，yesterday   
+除了later，还可以放在句子中间（main verb前面）        
+除了yet,不能放在句子开头，但是可以放在句子中间（main verb 前面 && （not后面 || auxiliary verbs后面 ）
+除了still, 还可以放在句子中间（main verb 前面 && （not后面 || auxiliary verbs后面 || modal auxiliary verbs后面）               
+
+duration只有两种形式：
+for + 时间长度，可以放在句子前面（必须加逗号），句子中间（后面只能跟 infinitive或prepositional phrases.），句子末尾。 比如for there hours
+since + point of time, 可以放在句子前面（必须加逗号），句子中间（后面只能跟 infinitive或prepositional phrases.），句子末尾。 比如fsince last week
